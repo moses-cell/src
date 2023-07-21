@@ -1,0 +1,9 @@
+<?php
+		require_once dirname(dirname(__FILE__)) . '/global.php';
+	require_once dirname(__FILE__) . '/shared/b_mpsession.php';
+	require_once dirname(__FILE__) . '/shared/b_mpdata.php';
+	require_once dirname(dirname(__FILE__)) . '/class/c_mpstaff.php';
+
+
+
+?>

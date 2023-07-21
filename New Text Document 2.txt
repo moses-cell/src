@@ -1,0 +1,7 @@
+ALTER TABLE `tams`.`training_setting` 
+ADD COLUMN `created_by` VARCHAR(450) NULL AFTER `description`,
+ADD COLUMN `modified_by` VARCHAR(450) NULL AFTER `created_by`,
+ADD COLUMN `date_modified` DATETIME NULL AFTER `modified_by`,
+ADD COLUMN `date_created` DATETIME NULL DEFAULT NOW() AFTER `date_modified`;
+
+test commit 20220616
